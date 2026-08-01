@@ -1,23 +1,56 @@
 aid: paragon-solutions
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paragon-solutions.png
 name: Paragon Solutions
-description: Paragon Solutions is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Paragon Solutions Ltd is an Israeli cyber-intelligence and surveillance
+  software vendor founded in 2019 in Tel Aviv by former Unit 8200 commander Ehud
+  Schneorson together with Idan Nurick, Igor Bogudlov and Liad Avraham, with Ehud
+  Barak among its backers. Its flagship product, Graphite, is mobile-device
+  intelligence software marketed to government and law-enforcement agencies.
+  Battery Ventures took an early-stage stake in the company; in 2024 Paragon was
+  acquired by AE Industrial Partners and merged with the US cybersecurity firm
+  RED Lattice. Surfaced as a Battery Ventures portfolio company and added to the
+  API Evangelist network as a lead, Paragon operates no public developer
+  platform: it publishes no API, SDKs, documentation, or self-service sign-up,
+  and its domain (paragonsolutions.io) currently serves no website. There is no
+  public API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/paragon-solutions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
+x-status: exited
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Cybersecurity
+- Surveillance
+- Security
+- Defense
+- Israel
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
